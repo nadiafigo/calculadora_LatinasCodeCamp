@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(190, 185, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 15px;
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+p {
+    font-size: 10px;
+    margin: 2px;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(73, 73, 73);
+    border-radius: 10px;
+    width: 150px;
+    margin: 10px 0 0 0;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 3px 0 0 4px;
+}
+
+.boton1, .boton2, .boton3 {
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.boton1 {
+    background-color: rgb(254, 124, 124);
+    color: rgb(254, 124, 124);
+}
+
+.boton2 {
+    background-color: rgb(228, 201, 100);
+    color: rgb(228, 201, 100);
+}
+
+.boton3 {
+    background-color: rgb(164, 228, 100);
+    color: rgb(164, 228, 100);
+}
+
+.texto {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    text-align: end;
+    margin: 10px 10px 0 10px;
+    font-size: 35px;
+    font-weight: lighter;
+    height: 10vh;
+}
+
+.teclas {
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    height: 30vh;
+    flex-basis: 25%;
+    text-align: center;
+    justify-content: center;
+}
+
+.linea_de_teclas {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2px;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+.tecla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 8vh;
+    flex-basis: 25%;
+    border-radius: 1px
+}
+
+.tecla2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 8vh;
+    flex-basis: 52%;
+    border-radius: 1px;
+}
+
+.o {
+    background-color: rgb(90, 90, 90);
+}
+
+.c {
+    background-color: rgb(122, 122, 122);
+}
+
+.n {
+    background-color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.esq_inf_izq {
+    border-radius: 1px 1px 1px 8px;
+}
+
+.esq_inf_der {
+    border-radius: 1px 1px 8px 1px;
+}
